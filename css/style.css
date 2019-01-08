@@ -1,6 +1,6 @@
 @font-face {
     font-family: Roboto;
-    src: url(Roboto);
+    src: url(../fonts/Roboto);
 }
 body {
     background-color: #fff;
@@ -22,59 +22,67 @@ a{
     text-decoration: none;
 }
 ul{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 li{
     list-style: none;
 }
-.banner .navigation{
+.navigation{
     display: flex;
     justify-content: center;
     width: 100%;
+    z-index: 1;
+    margin-top: 30px;
+    position: absolute;
 }
-.banner .navigation .navigation-conten{
+.navigation .navigation-conten{
     display: flex;
     width: 80%;
     justify-content: space-between;
-        margin-top: 15px;
 }
-.banner .navigation .logo a{
+.navigation .logo a{
      font-size: 25px;
 }
-.banner .navigation .menu{
+.navigation .menu{
     display: flex;
     margin-top: 10px;
 }
-.banner .navigation .menu .menu-left ul{
+.navigation .menu .menu-left ul{
         display: flex;
         margin: 0px;
 }
-.banner .navigation .menu .menu-left ul li{
+.navigation .menu .menu-left ul li{
     margin-right: 40px;
 }
-.banner .navigation .menu .menu-left ul li:last-child {
+.navigation .menu .menu-left ul li:last-child {
     border-left: 1px solid white;
     text-indent: 40px;
     color: blue !important;
 }
-.banner .navigation .menu .menu-right a{
+.navigation .menu .menu-right a{
     border: 1px solid white;
     padding: 7px 20px;
     border-radius: 5px;
 }
 .banner .form-seach{
     text-align: center;
-    margin-top: 200px;
+    position: absolute;
+    top: 30%;
+    right: 30%;
 }
 .banner .form-seach i{
-
+position: absolute;
+    top: 17px;
+    right: 10px;
+    font-size: 13px;
+    color: #a79595;
 }
 .banner .form-seach h3{
     color: white;
-    font-size: 40px;
+    font-size: 37px;
     font-weight: 100;
-        margin-bottom: 15px;
+    margin-top: 0px;
 }
 .banner .form-seach p{
     color: white;
@@ -83,7 +91,7 @@ li{
 .banner .form-seach .form-group-list {
         display: flex;
     justify-content: center;
-    width: 40%;
+    width: 100%;
     height: 50px;
     border-radius: 5px;
         background-color: white;
@@ -102,15 +110,8 @@ li{
         width: 50%;
         position: relative;
 }
-.banner .form-seach  i{
-        position: absolute;
-    top: 15px;
-    right: 10px;
-        font-size: 15px;
-    color: #7b6767;
-}
 .banner .form-seach form{
-        margin-top: 35px;
+        margin-top: 60px;
     display: flex;
     justify-content: center;
 }
@@ -125,6 +126,7 @@ li{
     position: absolute;
     top: 16px;
     left: 10px;
+    color: #ad9393;
 }
 .banner .form-seach .form-button{
     width: 23%;
@@ -140,10 +142,7 @@ li{
     height: 65%;
 }
 .banner .learn-more{
-        position: absolute;
-    bottom: 0px;
-    width: 100%;
-    margin-bottom: 30px;
+    margin-top: 40%;
 }
 .banner{
     background-position: center;
@@ -158,18 +157,17 @@ li{
     border-bottom: 1px solid #d8c6c6;
 }
 .main-menu{
-    width: 1170px;
-    margin: 0 auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .content-top .main-menu ul{
-    display: flex;
+        display: flex;
     justify-content: space-between;
-    margin: 0px 110px;
 }
 .content-top ul li{
     margin: 25px 0px;
-    width: 120px;
+    padding: 0 30px;
     position: relative;
     text-align: center;
 }
@@ -189,10 +187,9 @@ li{
 }
 .content-top .main-menu .button-cate{
     border: 1px solid black;
-    margin: 18px -70px;
-    padding: 5px 15px;
-    position: relative;
+    padding: 8px 16px;
     border-radius: 5px;
+    text-align: center;
 }
 .container{
     width: 1170px;
@@ -201,6 +198,7 @@ li{
 }
 .about{
         margin-top: 80px;
+        padding: 0px 18%;
 }
 .title h3 {
     font-size: 30px;
@@ -296,17 +294,16 @@ color: blue;
     line-height: 10px;
     text-align: left;
 }
-.box-conten:hover {
+
+.box-group .box-conten:hover,.box-conten:active{
     opacity: 1.5;
     transition: 0.4s;
 }
 
 
+
 .banner-2{
     width: 100%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
     background-image: url(../img/banner-bottom.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -317,9 +314,9 @@ color: blue;
 }
 
 .banner-2 .banner-conten{
-    grid-column: 7/11;
-    margin-top: 0 auto;
-    margin-top: 10%;
+    position: absolute;
+    width: 40%;
+    right: 15%;
 }
 .banner-2 .banner-conten .icon-top{
     font-size: 50px;
@@ -337,7 +334,7 @@ color: blue;
     height: 60px;
     float: right;
     display: flex;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .banner-2 .banner-conten .icon-bottom .icon-text2 {
     margin-left: 25px;
@@ -360,13 +357,12 @@ footer{
     height: 5px;
 }
 .footer{
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
     margin-top: 100px;
 }
 .footer .ft-sub{
-        grid-column: 4/10;
-        text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
 }
 .footer .ft-sub .sub-text p{
     color: black;
@@ -384,6 +380,7 @@ footer{
     justify-content: center;
     display: flex;
     height: 35px;
+    position: relative;
 }
 .footer .ft-sub .mail-sub input{
     color: #333;
@@ -397,12 +394,11 @@ footer{
 }
 .footer .ft-sub .mail-sub p{
     background-color: #42a5f4;
-    width: 115px;
-    height: 100%;
-    padding: 60px -51px;
-    margin-top: 0px;
-    border-radius: 3px;
-    padding: 10px;
+    padding: 10px 20px;
+    margin: 0px;
+    border-radius: 5px;
+    position: absolute;
+        right: 0px;
 }
 .footer .ft-bt{
     margin-top: 80px;
