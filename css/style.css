@@ -55,21 +55,28 @@ li{
 .navigation .menu .menu-left ul li{
     margin-right: 40px;
 }
-.navigation .menu .menu-left ul li:last-child {
-    border-left: 1px solid white;
-    text-indent: 40px;
-    color: blue !important;
+.navigation .menu .menu-left ul li a{
+    color: #888;
 }
-.navigation .menu .menu-right a{
-    border: 1px solid white;
+.navigation .menu .menu-right a:first-child {
+    border-left: 1px solid #fff;
+    text-indent: 40px;
+    color: #888 !important;
+    margin-right: 40px;
+    padding: 7px 20px;
+}
+.navigation .menu .menu-right .link-register {
+    border: 1px solid #fff;
     padding: 7px 20px;
     border-radius: 5px;
 }
 .banner .form-seach{
     text-align: center;
     position: absolute;
-    top: 30%;
-    right: 30%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    width: 40%;
 }
 .banner .form-seach i{
 position: absolute;
@@ -79,10 +86,10 @@ position: absolute;
     color: #a79595;
 }
 .banner .form-seach h3{
-    color: white;
+    color: #fff;
     font-size: 37px;
     font-weight: 100;
-    margin-top: 0px;
+    margin: 0px;
 }
 .banner .form-seach p{
     color: white;
@@ -130,19 +137,26 @@ position: absolute;
 }
 .banner .form-seach .form-button{
     width: 23%;
+    position: relative;
 }
-.banner .form-seach .form-button p{
-    padding: 0px;
+.banner .form-seach .form-button button{
+    padding: 10px 0px;
     background-color: #42a5f4;
-    margin: 8px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 5px;
-    height: 65%;
+    border: none;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    width: 80%;
+    justify-content: center;
+    color: #fff;
 }
 .banner .learn-more{
-    margin-top: 40%;
+    position: absolute;
+    margin-top: 25%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
 }
 .banner{
     background-position: center;
@@ -200,12 +214,13 @@ position: absolute;
         margin-top: 80px;
         padding: 0px 18%;
 }
-.title h3 {
+.title h3{
+    color: #888;
     font-size: 30px;
     font-weight: 100;
 }
 .title p{
-    color: black;
+    color: #888;
     line-height: 30px;
     margin-top: 25px;
 }
@@ -229,8 +244,12 @@ margin-left: 255px;
     margin-top: 60px;
     color: white;
 }
+
+.blog .blog-conten .title h3,p{
+    color: #fff;
+}
 .blog .blog-conten .title p{
-    color: white;
+    color: #fff;
 }
 .blog .blog-conten .title .view-more{
     position: relative;
@@ -317,6 +336,7 @@ color: blue;
     position: absolute;
     width: 40%;
     right: 15%;
+        margin-top: 50px;
 }
 .banner-2 .banner-conten .icon-top{
     font-size: 50px;
@@ -360,12 +380,12 @@ footer{
     margin-top: 100px;
 }
 .footer .ft-sub{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
 }
 .footer .ft-sub .sub-text p{
-    color: black;
+    color: #888;
     margin-top: 30px;
     line-height: 20px;
     letter-spacing: 1px;
@@ -373,14 +393,14 @@ footer{
 }
 .footer .ft-sub .sub-text h3{
     font-size: 30px;
+    font-weight: 100;
 }
 .footer .ft-sub .mail-sub{
-    width: 45%;
-    margin: 80px auto;
-    justify-content: center;
+    width: 50%;
     display: flex;
     height: 35px;
     position: relative;
+    margin: 50px auto;
 }
 .footer .ft-sub .mail-sub input{
     color: #333;
@@ -401,13 +421,13 @@ footer{
         right: 0px;
 }
 .footer .ft-bt{
-    margin-top: 80px;
+    margin-top: 50px;
     grid-column: span 12;
     border-top: 1px solid #a49494;;
     display: flex;
 }
 .footer .ft-bt p{
-    color: black;
+    color: #888;
 }
 .footer .ft-bt .bt-right{
     flex-grow: 1;
