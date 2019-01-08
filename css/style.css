@@ -1,0 +1,425 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto);
+}
+body {
+    background-color: #fff;
+    color: #212529;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.clear-both {
+    clear: both;
+}
+a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+.banner .navigation{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.banner .navigation .navigation-conten{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+        margin-top: 15px;
+}
+.banner .navigation .logo a{
+     font-size: 25px;
+}
+.banner .navigation .menu{
+    display: flex;
+    margin-top: 10px;
+}
+.banner .navigation .menu .menu-left ul{
+        display: flex;
+        margin: 0px;
+}
+.banner .navigation .menu .menu-left ul li{
+    margin-right: 40px;
+}
+.banner .navigation .menu .menu-left ul li:last-child {
+    border-left: 1px solid white;
+    text-indent: 40px;
+    color: blue !important;
+}
+.banner .navigation .menu .menu-right a{
+    border: 1px solid white;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+.banner .form-seach{
+    text-align: center;
+    margin-top: 200px;
+}
+.banner .form-seach i{
+
+}
+.banner .form-seach h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+        margin-bottom: 15px;
+}
+.banner .form-seach p{
+    color: white;
+    font-size: 15px;
+}
+.banner .form-seach .form-group-list {
+        display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+        background-color: white;
+}
+.banner .form-seach .form-group input{
+    border: none;
+    color: #333;
+    font-size: 15px;
+    outline: 0;
+    padding: 15px 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.banner .form-seach .form-seach1{
+        width: 50%;
+        position: relative;
+}
+.banner .form-seach  i{
+        position: absolute;
+    top: 15px;
+    right: 10px;
+        font-size: 15px;
+    color: #7b6767;
+}
+.banner .form-seach form{
+        margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner .form-seach .form-location{
+    width: 28%;
+    border-right: 1px solid #bf9f9f;
+    position: relative;
+    border-left: 1px solid #bf9f9f;
+}
+.banner .form-seach .form-location span{
+    position: absolute;
+    top: 16px;
+    left: 10px;
+}
+.banner .form-seach .form-button{
+    width: 23%;
+}
+.banner .form-seach .form-button p{
+    padding: 0px;
+    background-color: #42a5f4;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 65%;
+}
+.banner .learn-more{
+        position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.banner{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    position: relative;
+    background-image: url(../img/banner-top.jpg);
+}
+.content-top{
+    width: 100%;
+    border-bottom: 1px solid #d8c6c6;
+}
+.main-menu{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
+.content-top .main-menu ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 110px;
+}
+.content-top ul li{
+    margin: 25px 0px;
+    width: 120px;
+    position: relative;
+    text-align: center;
+}
+.content-top a{
+    color: #9e7a7a;
+}
+.content-top .main-menu ul li a:before {
+    content: ".";
+    font-size: 30px;
+    top: -18px;
+    color: #616181;
+    position: absolute;
+    right: -7px;
+}
+.content-top .main-menu  ul li:last-of-type a:before {
+    content: "";
+}
+.content-top .main-menu .button-cate{
+    border: 1px solid black;
+    margin: 18px -70px;
+    padding: 5px 15px;
+    position: relative;
+    border-radius: 5px;
+}
+.container{
+    width: 1170px;
+    text-align: center;
+    margin: 0 auto;
+}
+.about{
+        margin-top: 80px;
+}
+.title h3 {
+    font-size: 30px;
+    font-weight: 100;
+}
+.title p{
+    color: black;
+    line-height: 30px;
+    margin-top: 25px;
+}
+.blog{
+    display: flex;
+    margin-top: 80px;
+    height: 500px;
+}
+.blog .blog-conten{
+    width: 50%;
+    background-color: #42a5f4;
+}
+.blog .blog-video{
+    width: 50%;
+    position: relative;
+}
+.blog .blog-conten .title{
+margin-left: 255px;
+    margin-right: 80px;
+    text-align: left;
+    margin-top: 60px;
+    color: white;
+}
+.blog .blog-conten .title p{
+    color: white;
+}
+.blog .blog-conten .title .view-more{
+    position: relative;
+}
+.blog .blog-conten .title a{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    position: absolute;
+    color: white;
+}
+.blog-video img:not(:last-child){
+    width: 100%;
+    height: 100%;
+}
+.blog-video .iconplay{
+    position: absolute;
+    top: 35%;
+    right: 45%;
+}
+
+
+.job-offer{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.title{
+    text-align: center;
+}
+.box-group{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.box-group .box-conten{
+        margin: 0px 15px;
+    border: 1px solid black;
+    height: 280px;
+    border-radius: 5px;
+    width: 33.3%;
+        opacity: 0.5;
+}
+.box-group .box-conten .box-icon{
+    display: flex;
+    margin-top: 20px;
+    height: 85px;
+}
+.box-group .box-conten .box-title{
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+.box-conten .box-icon a{
+color: blue;
+}
+.box-conten .box-title a{
+color: blue;
+}
+.box-icon .icon-text {
+    line-height: 10px;
+    text-align: left;
+}
+.box-conten:hover {
+    opacity: 1.5;
+    transition: 0.4s;
+}
+
+
+.banner-2{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    background-image: url(../img/banner-bottom.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    text-align: center;
+    height: 400px;
+}
+
+.banner-2 .banner-conten{
+    grid-column: 7/11;
+    margin-top: 0 auto;
+    margin-top: 10%;
+}
+.banner-2 .banner-conten .icon-top{
+    font-size: 50px;
+    text-align: left;
+}
+.banner-2 .banner-conten .title{
+    margin-top: 10px;
+    text-align: left;
+}
+.banner-2 .banner-conten .title p{
+    color: white;
+        font-size: 17px;
+}
+.banner-2 .banner-conten .icon-bottom{
+    height: 60px;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+.banner-2 .banner-conten .icon-bottom .icon-text2 {
+    margin-left: 25px;
+    margin-top: -10px;
+    text-align: left;
+    color: white;
+    line-height: 5px;
+}
+footer{
+    background: #404040;
+    padding: 55px 0;
+    color:#fff;
+    position: relative;
+}
+.img-top-footer{
+    background-image: url(../img/footer.png);
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height: 5px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    margin-top: 100px;
+}
+.footer .ft-sub{
+        grid-column: 4/10;
+        text-align: center;
+}
+.footer .ft-sub .sub-text p{
+    color: black;
+    margin-top: 30px;
+    line-height: 20px;
+    letter-spacing: 1px;
+
+}
+.footer .ft-sub .sub-text h3{
+    font-size: 30px;
+}
+.footer .ft-sub .mail-sub{
+    width: 45%;
+    margin: 80px auto;
+    justify-content: center;
+    display: flex;
+    height: 35px;
+}
+.footer .ft-sub .mail-sub input{
+    color: #333;
+    font-size: 15px;
+    outline: 0;
+    height: 100%;
+    border: 1px solid #c3b9b9;
+    width: 100%;
+    border-radius: 5px;
+        text-indent: 15px;
+}
+.footer .ft-sub .mail-sub p{
+    background-color: #42a5f4;
+    width: 115px;
+    height: 100%;
+    padding: 60px -51px;
+    margin-top: 0px;
+    border-radius: 3px;
+    padding: 10px;
+}
+.footer .ft-bt{
+    margin-top: 80px;
+    grid-column: span 12;
+    border-top: 1px solid #a49494;;
+    display: flex;
+}
+.footer .ft-bt p{
+    color: black;
+}
+.footer .ft-bt .bt-right{
+    flex-grow: 1;
+    text-align: center;
+    margin: 20px;
+}
+.footer .ft-bt .bt-left{
+    flex-grow: 1;
+    text-align: center;
+    margin: 20px;
+}
