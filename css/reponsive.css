@@ -27,11 +27,11 @@
     	height: 535px;
     }
     .banner .learn-more{
-    	margin-top: 35%;
+    	display: none;
     }
     .banner .form-seach{
     	width: 100%;
-    	top: 40%;
+    	top: 50%;
     }
     .banner .form-seach h3{
     	font-size: 20px;
@@ -45,16 +45,22 @@
     	background-color: #ffffff00;
     }
     .banner .form-seach .form-seach1{
-    	width: 80%;
+    	width: 100%;
     	margin: 0 auto;
+    	border-radius: 0;
+    }
+    .banner .form-seach .form-group input{
+    	padding: 10px 20px;
+    	border-radius: 0;
+    	margin-bottom: 1rem;
     }
     .banner .form-seach i{
-    	top: 15px;
+    	top: 12px;
     	    right: 15px;
     	        font-size: 15px;
     }
     .banner .form-seach .form-location{
-        width: 80%;
+        width: 100%;
     margin: 5px auto;
     height: 35px;
 }
@@ -63,13 +69,16 @@
     height: 100%;
     }
     .banner .form-seach .form-button{
-    	width: 30%;
+    	width: 100%;
     	    margin: 0px auto;
     }
     .banner .form-seach .form-button button{
     padding: 10px 0px;
-    font-size: 10px;
-    margin: 5px auto;
+    font-size: 13px;
+    margin: 1rem auto;
+    border-radius: 0;
+    width: 100%;
+    height: auto;
 
     }
     .main-menu{
@@ -96,7 +105,7 @@
     	width: 100%;
     }
     .blog-video .iconplay{
-    	right: 40%;
+    	right: 30%;
     	top: 25%;
     }
     .box-group{
@@ -114,7 +123,7 @@
     .banner-2 .banner-conten{
     	margin-top: 35px;
     	left: 20px;
-    	width: 75%;
+    	width: 80%;
     }
     .banner-2 .banner-conten .title{
     	margin-top: -20px;
@@ -128,28 +137,40 @@
     height: auto;
     float: none;
     }
-    .footer .ft-sub .mail-sub{
-    	width: 60%;
+    .ft-sub .mail-sub{
+    	width: 100%;
     	display: block;
+    	padding: 0;
     }
-    .footer .ft-sub .mail-sub input{
+    .ft-sub .sub-text h3{
+    	font-size: 25px;
+    }
+	.ft-sub .mail-sub input{
     	border-radius: 0;
+    	margin-bottom: 1rem;
     }
-    .footer .ft-sub .mail-sub button{
-    	    padding: 5px 10px;
+	.ft-sub .mail-sub button{
+		    padding: 10px 20px;
     	    position: relative;
     	    width: 100%;
     	    border-radius: 0;
 
     }
-    .footer .ft-sub{
-    	width: 80%;
+	.ft-sub{
+    	width: 100%;
+    	padding: 0 5%;
     }
     .box-icon .icon-text{
     	    line-height: 10px;
     }
     .footer .ft-bt p{
-    	font-size: 10px;
+    	font-size: 13px;
+    }
+    .footer .ft-bt .bt-right{
+    	    padding: 2px;
+    }
+    .footer .ft-bt .bt-left{
+    	padding: 2px;
     }
 /*--side bar*/
     .sidenav {
@@ -243,7 +264,7 @@
     }
     .banner .form-seach{
     	width: 100%;
-    	top: 40%;
+    	top: 50%;
     }
     .banner .form-seach h3{
     	font-size: 20px;
@@ -257,16 +278,22 @@
     	background-color: #ffffff00;
     }
     .banner .form-seach .form-seach1{
-    	width: 80%;
+    	width: 100%;
     	margin: 0 auto;
+    	border-radius: 0;
+    }
+    .banner .form-seach .form-group input{
+    	padding: 10px 20px;
+    	border-radius: 0;
+    	margin-bottom: 1rem;
     }
     .banner .form-seach i{
-    	top: 15px;
+    	top: 12px;
     	    right: 15px;
     	        font-size: 15px;
     }
     .banner .form-seach .form-location{
-        width: 80%;
+        width: 100%;
     margin: 5px auto;
     height: 35px;
 }
@@ -275,13 +302,16 @@
     height: 100%;
     }
     .banner .form-seach .form-button{
-    	width: 30%;
+    	width: 100%;
     	    margin: 0px auto;
     }
     .banner .form-seach .form-button button{
     padding: 10px 0px;
-    font-size: 10px;
-    margin: 5px auto;
+    font-size: 13px;
+    margin: 1rem auto;
+    border-radius: 0;
+    width: 100%;
+    height: auto;
 
     }
     .main-menu{
@@ -340,28 +370,36 @@
     height: auto;
     float: none;
     }
-    .footer .ft-sub .mail-sub{
-    	width: 60%;
+
+    .ft-sub{
+    	padding: 0 10%;
+    }
+.ft-sub .mail-sub{
+    	width: 100%;
     	display: block;
+    	padding: 0;
     }
-    .footer .ft-sub .mail-sub input{
+.ft-sub .mail-sub input{
     	border-radius: 0;
+    	margin-bottom: 1rem;
     }
-    .footer .ft-sub .mail-sub button{
-    	    padding: 5px 10px;
+.ft-sub .mail-sub button{
+    	        padding: 10px 20px;
     	    position: relative;
     	    width: 100%;
     	    border-radius: 0;
+    	    color: #ffff;
 
     }
-    .footer .ft-sub{
-    	width: 80%;
+
+.ft-sub{
+    	width: 100%;
     }
     .box-icon .icon-text{
     	    line-height: 10px;
     }
     .footer .ft-bt p{
-    	font-size: 10px;
+    	font-size: 14px;
     }
 /*--side bar*/
     .sidenav {
@@ -459,7 +497,7 @@
     }
     .banner .form-seach{
     	width: 90%;
-    	top: 40%;
+    	top: 50%;
     }
     .banner .form-seach h3{
     	font-size: 29px;
@@ -516,11 +554,27 @@
     height: auto;
     float: none;
     }
-    .footer .ft-sub .mail-sub{
-    	width: 60%;
+.ft-sub{
+    	padding: 0 10%;
     }
-    .footer .ft-sub{
-    	width: 80%;
+.ft-sub .mail-sub{
+    	width: 100%;
+    	display: block;
+    	padding: 0;
+    }
+.ft-sub .mail-sub input{
+    	border-radius: 0;
+    	margin-bottom: 1rem;
+    }
+.ft-sub .mail-sub button{
+    	        padding: 10px 20px;
+    	    position: relative;
+    	    width: 100%;
+    	    border-radius: 0;
+
+    }
+.ft-sub{
+    	width: 100%;
     }
     .box-icon .icon-text{
     	    line-height: 10px;
@@ -665,6 +719,9 @@
     }
     .box-icon .icon-text{
     	    line-height: 10px;
+    }
+    .ft-sub .mail-sub{
+    	    padding: 0 25%;
     }
 /*--side bar*/
     .sidenav {
