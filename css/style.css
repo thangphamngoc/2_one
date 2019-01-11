@@ -126,15 +126,13 @@ position: absolute;
 
 .banner .form-seach .form-location{
     width: 28%;
-    border-right: 1px solid #333;
     position: relative;
-    border-left: 1px solid #333;
 }
-.banner .form-seach .form-location span{
-    position: absolute;
-    top: 16px;
-    left: 10px;
+.banner .form-seach .form-location select{
     color: #333;
+    width: 100%;
+    height: 100%;
+
 }
 .banner .form-seach .form-button{
     width: 23%;
