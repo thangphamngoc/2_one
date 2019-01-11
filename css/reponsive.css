@@ -1,0 +1,710 @@
+@media only screen and (min-width : 320px) and (max-width: 375px){
+
+
+		.container {
+    width: 100%;
+    }
+    .title h3{
+    	font-size: 25px;
+    }
+    .menu-left{
+    	display: none;
+    }
+    .menu-right{
+    	display: none;
+    }
+    .navigation .icon{
+    	display: block;
+    	position: absolute;
+    	right: -40px;
+    font-size: 30px;
+    top: 2px;
+    }
+    .navigation-conten{
+    	position: relative;
+    }
+    .banner{
+    	height: 535px;
+    }
+    .banner .learn-more{
+    	margin-top: 35%;
+    }
+    .banner .form-seach{
+    	width: 100%;
+    	top: 40%;
+    }
+    .banner .form-seach h3{
+    	font-size: 20px;
+    }
+    .banner .form-seach p{
+    	font-size: 12px
+    }
+    .banner .form-seach .form-group-list{
+    	height: 35px;
+    }
+    .banner .form-seach i{
+    	top: 10px;
+    	    right: 5px;
+    }
+    .banner .form-seach .form-location span{
+    	top: 10px;
+    left: 5px;
+    }
+    .banner .form-seach .form-button button{
+    	left: 11%;
+    top: 12%;
+    padding: 8px 0px;
+    font-size: 10px;
+    }
+    .main-menu{
+    	display: none;
+    }
+    .content-top ul li{
+    	padding: 0 5px;
+    }
+    .about{
+    	padding: 0px 5%;
+    }
+    .blog{
+    	display: block;
+    	height: auto;
+    }
+    .blog .blog-conten{
+    	width: 100%;
+    }
+    .blog .blog-conten .title{
+    	    padding: 10px 25px;
+    	    margin: 0;
+    }
+    .blog .blog-video{
+    	width: 100%;
+    }
+    .blog-video .iconplay{
+    	right: 40%;
+    	top: 25%;
+    }
+    .box-group{
+    	display: block;
+    }
+    .box-group .box-conten {
+    margin: 0;
+    width: 90%;
+    height: auto;
+    margin: 15px auto;
+}
+    .job-offer{
+    	    margin-bottom: 100px;
+    }
+    .banner-2 .banner-conten{
+    	margin-top: 35px;
+    	left: 20px;
+    	width: 75%;
+    }
+    .banner-2 .banner-conten .title{
+    	margin-top: -20px;
+    }
+    .banner-2 .banner-conten .icon-top{
+    	    font-size: 40px;
+    }
+    .banner-2 .banner-conten .icon-bottom{
+    	margin-top: 5%;
+    margin-right: 0;
+    height: auto;
+    float: none;
+    }
+    .footer .ft-sub .mail-sub{
+    	width: 60%;
+    	display: block;
+    }
+    .footer .ft-sub .mail-sub input{
+    	border-radius: none;
+    }
+    .footer .ft-sub .mail-sub button{
+    	    padding: 5px 10px;
+    	    left: 0px;
+
+    }
+    .footer .ft-sub{
+    	width: 80%;
+    }
+    .box-icon .icon-text{
+    	    line-height: 10px;
+    }
+/*--side bar*/
+    .sidenav {
+  height: 100%;
+  right:-250px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  background-color: #311a20;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+  margin-top: 0px;
+  transition: all .2s ease-out;
+}
+
+.sidenav li {
+  padding: 8px 8px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 5s;
+  list-style:none;
+}
+.sidenav li:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 80%;
+  font-size: 36px;
+  margin-left: 50px;
+}
+  .sidebar-overlay-mb{
+ background: rgba(148,147,165,0.6);
+    bottom: -5000px;
+    display: none;
+    left: -5000px;
+    position: fixed;
+    right: -5000px;
+    top: -5000px;
+    z-index: 99;
+}
+.sidebar-wrapper-mb{
+    bottom: 0;
+    display: block;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+/*end sidebar*/
+	}
+
+
+@media only screen and (min-width : 375px) and (max-width: 480px){
+
+
+
+	.container {
+    width: 100%;
+    }
+    .title h3{
+    	font-size: 25px;
+    }
+    .menu-left{
+    	display: none;
+    }
+    .menu-right{
+    	display: none;
+    }
+    .navigation .icon{
+    	display: block;
+    	position: absolute;
+    	right: -40px;
+    font-size: 30px;
+    top: 2px;
+    }
+    .navigation-conten{
+    	position: relative;
+    }
+    .banner{
+    	height: 535px;
+    }
+    .banner .learn-more{
+    	margin-top: 35%;
+    }
+    .banner .form-seach{
+    	width: 100%;
+    	top: 40%;
+    }
+    .banner .form-seach h3{
+    	font-size: 20px;
+    }
+    .banner .form-seach p{
+    	font-size: 12px
+    }
+    .banner .form-seach .form-group-list{
+    	height: 35px;
+    }
+    .banner .form-seach i{
+    	top: 10px;
+    	    right: 5px;
+    }
+    .banner .form-seach .form-location span{
+    	top: 10px;
+    left: 5px;
+    }
+    .banner .form-seach .form-button button{
+    	left: 11%;
+    top: 12%;
+    padding: 8px 0px;
+    font-size: 10px;
+    }
+    .main-menu{
+    	display: none;
+    }
+    .content-top ul li{
+    	padding: 0 5px;
+    }
+    .about{
+    	padding: 0px 5%;
+    }
+    .blog{
+    	display: block;
+    	height: auto;
+    }
+    .blog .blog-conten{
+    	width: 100%;
+    }
+    .blog .blog-conten .title{
+    	    padding: 10px 25px;
+    	    margin: 0;
+    }
+    .blog .blog-video{
+    	width: 100%;
+    }
+    .blog-video .iconplay{
+    	right: 40%;
+    	top: 25%;
+    }
+    .box-group{
+    	display: block;
+    }
+    .box-group .box-conten {
+    margin: 0;
+    width: 90%;
+    height: auto;
+    margin: 15px auto;
+}
+    .job-offer{
+    	    margin-bottom: 100px;
+    }
+    .banner-2 .banner-conten{
+    	margin-top: 35px;
+    	left: 20px;
+    	width: 75%;
+    }
+    .banner-2 .banner-conten .title{
+    	margin-top: -20px;
+    }
+    .banner-2 .banner-conten .icon-top{
+    	    font-size: 40px;
+    }
+    .banner-2 .banner-conten .icon-bottom{
+    	margin-top: 5%;
+    margin-right: 0;
+    height: auto;
+    float: none;
+    }
+    .footer .ft-sub .mail-sub{
+    	width: 60%;
+    	display: block;
+    }
+    .footer .ft-sub .mail-sub input{
+    	border-radius: none;
+    }
+    .footer .ft-sub .mail-sub button{
+    	    padding: 5px 10px;
+    	    left: 0px;
+
+    }
+    .footer .ft-sub{
+    	width: 80%;
+    }
+    .box-icon .icon-text{
+    	    line-height: 10px;
+    }
+/*--side bar*/
+    .sidenav {
+  height: 100%;
+  right:-250px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  background-color: #311a20;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+  margin-top: 0px;
+  transition: all .2s ease-out;
+}
+
+.sidenav li {
+  padding: 8px 8px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 5s;
+  list-style:none;
+}
+.sidenav li:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 80%;
+  font-size: 36px;
+  margin-left: 50px;
+}
+  .sidebar-overlay-mb{
+ background: rgba(148,147,165,0.6);
+    bottom: -5000px;
+    display: none;
+    left: -5000px;
+    position: fixed;
+    right: -5000px;
+    top: -5000px;
+    z-index: 99;
+}
+.sidebar-wrapper-mb{
+    bottom: 0;
+    display: block;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+/*end sidebar*/
+}
+
+
+
+
+
+@media only screen and (min-width : 480px) and (max-width: 767px){
+
+.container {
+    width: 100%;
+    }
+    .title h3{
+    	font-size: 25px;
+    }
+    .menu-left{
+    	display: none;
+    }
+    .sidenav .menu-right a{
+    	display: none;
+    }
+    .navigation .icon{
+    	display: block;
+    	position: absolute;
+    	right: -40px;
+    font-size: 30px;
+    top: 2px;
+    }
+    .navigation-conten{
+    	position: relative;
+    }
+    .main-menu{
+    	display: none;
+    }
+    .banner{
+    	height: 650px;
+    }
+    .banner .learn-more{
+    	margin-top: 35%;
+    }
+    .banner .form-seach{
+    	width: 90%;
+    	top: 40%;
+    }
+    .banner .form-seach h3{
+    	font-size: 29px;
+    }
+    .content-top ul li{
+    	padding: 0 5px;
+    }
+    .about{
+    	padding: 0px 5%;
+    }
+    .blog{
+    	display: block;
+    	height: auto;
+    }
+    .blog .blog-conten{
+    	width: 100%;
+    }
+    .blog .blog-conten .title{
+    	    padding: 10px 25px;
+    	    margin: 0;
+    }
+    .blog .blog-video{
+    	width: 100%;
+    }
+    .blog-video .iconplay{
+    	right: 40%;
+    }
+    .box-group{
+    	display: block;
+    }
+    .box-group .box-conten {
+    margin: 0;
+    width: 90%;
+    height: auto;
+    margin: 15px auto;
+}
+    .job-offer{
+    	    margin-bottom: 100px;
+    }
+    .banner-2 .banner-conten{
+    	margin-top: 35px;
+    	left: 20px;
+    	width: 55%;
+    }
+    .banner-2 .banner-conten .title{
+    	margin-top: -20px;
+    }
+    .banner-2 .banner-conten .icon-top{
+    	    font-size: 40px;
+    }
+    .banner-2 .banner-conten .icon-bottom{
+    	margin-top: 5%;
+    margin-right: 0;
+    height: auto;
+    float: none;
+    }
+    .footer .ft-sub .mail-sub{
+    	width: 60%;
+    }
+    .footer .ft-sub{
+    	width: 80%;
+    }
+    .box-icon .icon-text{
+    	    line-height: 10px;
+    }
+/*--side bar*/
+    .sidenav {
+  height: 100%;
+  right:-250px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  background-color: #311a20;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+  margin-top: 0px;
+  transition: all .2s ease-out;
+}
+
+.sidenav li {
+  padding: 8px 8px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 5s;
+  list-style:none;
+}
+.sidenav li:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 80%;
+  font-size: 36px;
+  margin-left: 50px;
+}
+  .sidebar-overlay-mb{
+ background: rgba(148,147,165,0.6);
+    bottom: -5000px;
+    display: none;
+    left: -5000px;
+    position: fixed;
+    right: -5000px;
+    top: -5000px;
+    z-index: 99;
+}
+.sidebar-wrapper-mb{
+    bottom: 0;
+    display: block;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+/*end sidebar*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 768px) and (max-width: 1023px){
+   .container {
+    width: 100%;
+    }
+    .menu-left{
+    	display: none;
+    }
+    .navigation .icon{
+    	display: block;
+    	position: absolute;
+    	right: -50px;
+    font-size: 30px;
+    top: 2px;
+    }
+    .navigation-conten{
+    	position: relative;
+    }
+    .banner{
+    	height: 650px;
+    }
+    .banner .learn-more{
+    	margin-top: 35%;
+    }
+    .banner .form-seach{
+    	width: 65%;
+    	top: 40%;
+    }
+    .banner .form-seach h3{
+    	font-size: 29px;
+    }
+    .content-top ul li{
+    	padding: 0 25px;
+    }
+    .about{
+    	padding: 0px 5%;
+    }
+    .blog .blog-conten .title{
+    	    margin: 10px 20px;
+    }
+    .blog-video .iconplay{
+    	right: 40%;
+    }
+    .box-group .box-conten{
+    	margin: 0px 5px;
+    }
+    .job-offer{
+    	    margin-bottom: 100px;
+    }
+    .banner-2 .banner-conten{
+    	margin-top: 35px;
+    	right: 0px;
+    }
+    .banner-2 .banner-conten .icon-top{
+    	    font-size: 40px;
+    }
+    .banner-2 .banner-conten .icon-bottom{
+    	margin-top: 25px;
+    margin-right: 10px;
+    }
+    .footer .ft-sub{
+    	width: 80%;
+    }
+    .box-icon .icon-text{
+    	    line-height: 10px;
+    }
+/*--side bar*/
+    .sidenav {
+  height: 100%;
+  right:-250px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  background-color: #311a20;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+  margin-top: 0px;
+  transition: all .2s ease-out;
+}
+
+.sidenav li {
+  padding: 8px 8px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 5s;
+  list-style:none;
+}
+.sidenav li:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 80%;
+  font-size: 36px;
+  margin-left: 50px;
+}
+  .sidebar-overlay-mb{
+ background: rgba(148,147,165,0.6);
+    bottom: -5000px;
+    display: none;
+    left: -5000px;
+    position: fixed;
+    right: -5000px;
+    top: -5000px;
+    z-index: 99;
+}
+.sidebar-wrapper-mb{
+    bottom: 0;
+    display: block;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+/*end sidebar*/
+}
+
+@media only screen and (min-width : 1024px) and (max-width: 1134px){
+    .container {
+    width: 100%;
+    }
+    .navigation-conten .icon{
+    	display: none;
+    }
+    .blog .blog-conten .title {
+    margin-left: 160px;
+    }
+    .blog-video .iconplay {
+    right: 40%;
+	}
+	.banner-2 .banner-conten {
+    right: 10%;
+    }
+    .box-group .box-conten {
+    margin: 0px 5px;
+}
+.banner-2 .banner-conten .icon-bottom {
+    margin-top: 15px;
+}
+.blog .blog-conten .title a {
+    margin-top: 10px;
+}
+
+}
