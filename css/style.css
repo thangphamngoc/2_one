@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Roboto;
-    src: url(../font/fonts/Roboto);
+    font-family: "Roboto";
+    src: url(../font/fonts/fontawesome-webfont.woff);
 }
 body {
     background-color: #fff;
