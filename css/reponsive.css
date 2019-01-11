@@ -51,10 +51,9 @@
     left: 5px;
     }
     .banner .form-seach .form-button button{
-    	left: 11%;
-    top: 12%;
-    padding: 8px 0px;
+    padding: 5px 0px;
     font-size: 10px;
+    margin: 6px auto;
     }
     .main-menu{
     	display: none;
@@ -242,10 +241,9 @@
     left: 5px;
     }
     .banner .form-seach .form-button button{
-    	left: 11%;
-    top: 12%;
-    padding: 8px 0px;
+    padding: 5px 0px;
     font-size: 10px;
+    margin: 6px auto;
     }
     .main-menu{
     	display: none;
