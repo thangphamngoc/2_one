@@ -18,7 +18,7 @@
     	position: absolute;
     	right: -20px;
     font-size: 30px;
-    top: 2px;
+    top: 0px;
     }
     .navigation-conten{
     	position: relative;
@@ -160,17 +160,18 @@
     	width: 100%;
     	padding: 0 5%;
     }
+    .footer .ft-bt{
+    	display: block;
+    }
     .box-icon .icon-text{
     	    line-height: 10px;
     }
-    .footer .ft-bt p{
-    	font-size: 13px;
+    .footer .ft-bt .bt-left{
+    	text-align: left;
+    	padding: 5px;
     }
     .footer .ft-bt .bt-right{
-    	    padding: 2px;
-    }
-    .footer .ft-bt .bt-left{
-    	padding: 2px;
+    	    padding: 5px;
     }
 /*--side bar*/
     .sidenav {
@@ -251,7 +252,7 @@
     	position: absolute;
     	right: -20px;
     font-size: 30px;
-    top: 2px;
+    top: 0px;
     }
     .navigation-conten{
     	position: relative;
@@ -395,11 +396,18 @@
 .ft-sub{
     	width: 100%;
     }
+    .footer .ft-bt{
+    	display: block;
+    }
     .box-icon .icon-text{
     	    line-height: 10px;
     }
-    .footer .ft-bt p{
-    	font-size: 14px;
+    .footer .ft-bt .bt-left{
+    	text-align: left;
+    	padding: 5px;
+    }
+    .footer .ft-bt .bt-right{
+    	    padding: 5px;
     }
 /*--side bar*/
     .sidenav {
@@ -573,11 +581,21 @@
     	    border-radius: 0;
 
     }
-.ft-sub{
+    .ft-sub{
     	width: 100%;
+    }
+    .footer .ft-bt{
+    	display: block;
     }
     .box-icon .icon-text{
     	    line-height: 10px;
+    }
+    .footer .ft-bt .bt-left{
+    	text-align: left;
+    	padding: 5px;
+    }
+    .footer .ft-bt .bt-right{
+    	    padding: 5px;
     }
 /*--side bar*/
     .sidenav {
